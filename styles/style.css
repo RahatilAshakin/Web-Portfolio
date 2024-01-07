@@ -24,13 +24,29 @@ body{
 
 
 
+/* header related style */
+.header{
+    background-color: #fff8f3;
 
+}
+
+.banner{
+    padding: 30px 30px 30px 150px ;
+    display: flex;
+    align-items: center;
+}
+ 
+.banner .ppicture{
+    width: 500px;
+
+}
 
 /* nav css */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 }
 nav>ul{
     display: flex;
